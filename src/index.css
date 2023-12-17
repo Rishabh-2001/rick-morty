@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ADD8E6;
+  box-sizing: border-box;
+  font-family: 'Comic Sans MS', cursive;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+  height: auto;
+  object-fit: cover;
+  border-radius: .75rem;
+}
+
+.homeContainer{
+  width: 90%;
+  margin: 0 auto;
 }

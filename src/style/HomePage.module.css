@@ -1,0 +1,56 @@
+
+
+.homepageContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* height:  */
+    
+}
+
+.filterBox{
+    display: flex;
+    
+}
+
+select{
+    width: 6rem;
+    padding: 0.45rem 1.25rem;
+    border-radius: 8px;
+    outline: none;
+    border: 0;
+    margin-right: 2rem;
+    margin-left: 0.5rem;
+}
+select option{
+    font-size: 1rem;
+}
+.btnGroup{
+  display: flex;
+  justify-content: center;
+  
+}
+.btnGroup button{
+    padding: .5rem 2rem;
+    margin-right: 1rem;
+    outline: none;
+    border: 0;
+    border-radius: 2rem;
+    background-color: #97ce4c ;
+    color: white;
+    cursor: pointer;
+   transition: all 0.3s ease-in;
+}
+.btnGroup button:hover{
+    transform: scale(.97);
+    background-color: #5a8a17;
+}
+
+
+/* options{
+    padding: 1.25rem;
+    cursor: pointer;
+    text-align: center;
+    font-size: 2rem !important;
+
+} */

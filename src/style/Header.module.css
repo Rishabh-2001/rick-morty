@@ -1,0 +1,55 @@
+
+.headerContainer{
+    background-color: #44281d;
+    padding: 0.5rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.headerLogo{
+    object-fit: cover;
+    width: 240px;
+    height: 80px;
+    object-position: center;
+    margin-right: 4rem;
+}
+.search{
+    background-color: white;
+    height: 2rem;
+   outline: 0;
+   border: 0;
+   padding: .25rem 1rem ;
+   border-radius: 1.5rem;
+   font-size: 0.8rem;
+   width: 14rem;
+
+}
+.btn{
+    background-color: rgb(75, 199, 199);
+   padding: .7rem 2rem ;
+   border-radius: 2rem;
+   outline: 0;
+   border: 0;
+   color: white;
+   margin-left: 0.5rem;
+   cursor: pointer;
+    
+}
+
+.boxRow
+{
+    display: flex;
+   align-items: center;
+   color: rgb(75, 199, 199) ;
+   font-size: 1.25rem;
+   cursor: pointer;
+   transition: all .2s ease-in;
+   /* justify-content: space-around; */
+}
+.boxRow span:hover{
+    color: rgb(101, 184, 28) ;
+}
+.boxRow span:first-child{
+    margin-right: 2rem;
+}

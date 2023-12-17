@@ -1,0 +1,136 @@
+
+/* #f0e14a     #e4a788 */
+
+.container{
+    background-color: #e4a788;  
+    border-radius: 0.75rem;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    width: 320px;
+    /* max-width: 320px; */
+    height: auto;
+    margin: 1rem;
+    display: flex;
+    flex-grow: 1;
+    /* flex-direction: column; */
+}
+.innerContainer{
+    padding: 0.5em 1em;
+    width: 100%;
+   
+}
+
+
+.cardBody{
+    margin: 1.5em 0 0.5em 0;
+}
+.rowBetween{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+.iconApart{
+    display: flex;
+    /* margin-right: em; */
+}
+.iconSpace{
+    margin-right: 0.5em;
+}
+.cardRows{
+    margin: 1em 0;
+}
+
+.status{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.Alive {
+ 
+    background-color: #05a929;
+
+  }
+
+  .Dead {
+
+    background-color: #dd0d0d;
+
+  }
+
+  .unknown {
+
+    background-color: #d9f635;
+
+  }
+
+  .cardLabels{
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: 'Comic Sans MS', italic;
+    color: #44281d;
+    margin-right: 1em;
+  }
+
+  .cardDetails{
+    font-weight: 600;
+    font-size: 1.15rem;
+    font-family: 'Comic Sans MS', cursive;
+    /* font-family: 'Roboto', sans-serif; */
+    
+  }
+
+  .link{
+    font-size: 1rem;
+    color: blue;
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+
+  .link:hover{
+    text-decoration: underline;
+  }
+
+  .episode{
+    background-color: #f0e14a;
+    margin:  0.5rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 6px;
+    text-align: center;
+
+  }
+  .episode:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+  }
+
+  .seeMore {
+    text-align: center;
+    position: relative;
+    top: 0;
+    display: none;
+    left: 0;
+    /* width: 100%;
+    height: 100%; */
+    background-color: #05a929;
+    color: white;
+    cursor: pointer;
+    padding: 0.1em 0;
+    border-radius: 0.85rem;
+    opacity: 0; /* Initially hidden */
+    transition: all 0.4s ease-in;
+  }
+  
+  .innerContainer:hover .seeMore {
+    opacity: 1; /* Show on hover */
+    display: block;
+  
+  
+  }
+  
+  .seeMore:hover {
+    background-color: #37c355;
+  }
+  .seeMore:active{
+    transform: scale(.97);
+  }

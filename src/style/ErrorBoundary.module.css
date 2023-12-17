@@ -1,0 +1,22 @@
+.errorContainer{
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    margin-top: 1em;
+
+}
+
+.errorText{
+    color: red;
+  
+}
+
+.btn{
+    padding: .5rem 1rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    background-color: rgb(247, 222, 29);
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
